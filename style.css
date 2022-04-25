@@ -1,0 +1,80 @@
+*{
+padding: 0%;
+margin: 0%;
+background-color: bisque;
+}
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgb(34, 42, 40);
+position: sticky;
+top: 5%;
+}
+.navbar ul{
+display: flex;
+list-style: none;
+margin: 20px 0px;
+}
+.navbar ul li{
+font-family: 'Times New Roman';
+font-size: 1.1rem;
+font-family:  sans-serif;
+}
+.navbar ul li a{
+text-decoration: none;
+color: black;
+padding: 8px 25px ;
+transition: all .5s ease;
+}
+.navbar ul li a:hover{
+background-color: rgb(255, 255, 255);
+color: black;
+box-shadow: 0 0 10px rgb(176, 230, 220);
+} 
+.intro{
+    padding-right: 20%;
+    
+}
+.info{
+    margin-left: 50%;
+    margin-top: 20%;
+    
+}
+.info h1{
+    font-size: 35px;
+    color: rgb(rgb(17, 15, 15));
+    
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image:hover .girl{
+    left: 55%;
+}
+.icons{
+    margin-right: 50%;
+    margin-top: 20%;
+    left: 100%;
+}
+
+
+
